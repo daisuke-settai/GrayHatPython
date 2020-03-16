@@ -179,7 +179,6 @@ class FLOATING_SAVE_AREA(Structure):
 # register values after a GetThreadContext() call
 class CONTEXT(Structure):
     _fields_ = [
-    
         ("ContextFlags", DWORD),
         ("Dr0", DWORD),
         ("Dr1", DWORD),
